@@ -1,0 +1,10 @@
+.offerContainer:nth-child(2n){
+    display: flex;
+    flex-direction: row-reverse;
+}
+@media (max-width: 768px) {
+    .offerContainer:nth-child(2n){
+        display: flex;
+        flex-direction: column;
+    }
+}
